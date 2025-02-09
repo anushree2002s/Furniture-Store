@@ -13,3 +13,54 @@
     --background-color: #ededed;
     --primary-color: #00594e;
 }
+
+/* nav-bar */
+.nav-container .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--nav-font);
+}
+
+.nav-item .nav-link {
+    color: var(--nav-font);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link.active{
+    color:var(--nav-font)!important;
+    font-weight: 700;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-buttons .btn-outline-custom {
+    border: 1px solid var(--nav-font);
+    padding: 0.5rem;
+    color: var(--nav-font);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-buttons .btn-outline-custom:hover {
+    background-color: var(--nav-font);
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .navbar-buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navbar-buttons .btn-outline-custom {
+        width: 100%;
+    }
+}
