@@ -1,0 +1,15 @@
+/* fonts */
+:root {
+    --logo-font: "Lora";
+    --heading-font: "Playfair Display";
+    --body-font: "Jost";
+}
+
+/* colors */
+:root {
+    --primary-font: #070b3d;
+    --secondary-font: #7c7c7c;
+    --nav-font: #00594e;
+    --background-color: #ededed;
+    --primary-color: #00594e;
+}
