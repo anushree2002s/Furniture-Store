@@ -40,12 +40,10 @@
         />
       </symbol>
       <!-- add -->
-      <symbol id="add-box" viewBox="0 0 24 24">
+      <symbol id="add" viewBox="0 0 24 24">
         <path
-          fill="#00594E"
-          fill-rule="evenodd"
-          d="M7.345 4.017a42.3 42.3 0 0 1 9.31 0c1.713.192 3.095 1.541 3.296 3.26a40.7 40.7 0 0 1 0 9.446c-.201 1.719-1.583 3.068-3.296 3.26a42.3 42.3 0 0 1-9.31 0c-1.713-.192-3.095-1.541-3.296-3.26a40.7 40.7 0 0 1 0-9.445a3.734 3.734 0 0 1 3.295-3.26M12 7.007a.75.75 0 0 1 .75.75v3.493h3.493a.75.75 0 1 1 0 1.5H12.75v3.493a.75.75 0 0 1-1.5 0V12.75H7.757a.75.75 0 0 1 0-1.5h3.493V7.757a.75.75 0 0 1 .75-.75"
-          clip-rule="evenodd"
+          fill="#fefefe"
+          d="M18 13h-5v5c0 .55-.45 1-1 1s-1-.45-1-1v-5H6c-.55 0-1-.45-1-1s.45-1 1-1h5V6c0-.55.45-1 1-1s1 .45 1 1v5h5c.55 0 1 .45 1 1s-.45 1-1 1"
         />
       </symbol>
       <!-- arrow-down -->
@@ -129,16 +127,131 @@
     <!-- hero -->
     <section class="container hero-section">
       <div class="row align-items-center">
-          <div class="col-lg-6 hero-content px-5">
-              <h1>Elevate Your Home <br> With Stylish Furniture</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi aliquam in hendrerit urna.</p>
-              <button class="btn-custom">Download App</button>
-          </div>
-          <div class="col-lg-6 hero-image text-center">
-              <img src="images/hero.png" alt="a chair">
-          </div>
+        <div class="col-lg-6 hero-content px-5">
+          <h1>
+            Elevate Your Home <br />
+            With Stylish Furniture
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
+            mi aliquam in hendrerit urna.
+          </p>
+          <button class="btn-custom">Download App</button>
+        </div>
+        <div class="col-lg-6 hero-image text-center">
+          <img src="images/hero.png" alt="a chair" />
+        </div>
       </div>
-  </section>
+    </section>
+
+    <!-- best selling products -->
+    <div class="best-selling-container my-5">
+      <!-- Section Title -->
+      <h2 class="section-title">Best Selling Products</h2>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="active">All</button>
+        <button>Chair</button>
+        <button>Beds</button>
+        <button>Sofa</button>
+        <button>Table</button>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="row gy-4">
+        <div class="col-md-4 col-sm-6">
+          <div class="product-card">
+            <div class="wishlist-btn">
+              <svg class="icon" width="18" height="18">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </div>
+            <img src="images/BP1.jpg" alt="Minimalistic Work Table Set" />
+            <h5>Minimalistic Work Table Set</h5>
+            <div class="rating">
+              <span
+                ><svg class="icon" width="18" height="18">
+                  <use xlink:href="#star"></use>
+                </svg>
+                4.8</span
+              >
+              <small>(300+ Reviews)</small>
+            </div>
+            <div class="price-container">
+              <span class="price">$450</span>
+              <span class="old-price">$700</span>
+            </div>
+            <div class="add-to-cart-btn">
+              <svg class="icon" width="50" height="50">
+                <use xlink:href="#add"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="product-card">
+            <div class="wishlist-btn">
+              <svg class="icon" width="18" height="18">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </div>
+            <img src="images/BP2.jpg" alt="Minimalistic Work Table Set" />
+            <h5>Minimalistic Work Table Set</h5>
+            <div class="rating">
+              <span
+                ><svg class="icon" width="18" height="18">
+                  <use xlink:href="#star"></use></svg >4.7</span
+              >
+              <small>(250+ Reviews)</small>
+            </div>
+            <div class="price-container">
+              <span class="price">$450</span>
+              <span class="old-price">$700</span>
+            </div>
+            <div class="add-to-cart-btn">
+              <svg class="icon" width="50" height="50">
+                <use xlink:href="#add"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="product-card">
+            <div class="wishlist-btn">
+              <svg class="icon" width="18" height="18">
+                <use xlink:href="#heart"></use>
+              </svg>
+            </div>
+            <img src="images/BP3.jpg" alt="Minimalistic Work Table Set" />
+            <h5>Minimalistic Work Table Set</h5>
+            <div class="rating">
+              <span>
+                <svg class="icon" width="18" height="18">
+                  <use xlink:href="#star"></use>
+                </svg>
+                4.9</span
+              >
+              <small>(500+ Reviews)</small>
+            </div>
+            <div class="price-container">
+              <span class="price">$450</span>
+              <span class="old-price">$700</span>
+            </div>
+            <div class="add-to-cart-btn">
+              <svg class="icon" width="50" height="50">
+                <use xlink:href="#add"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- See All Button -->
+      <div class="see-all-btn">
+        <button>See All</button>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
