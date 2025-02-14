@@ -522,3 +522,11 @@ body {
     margin-top: 20px;
     padding-top: 15px;
 }
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .footer-container .center-side {
+       margin-top: 1rem;
+    }
+}
