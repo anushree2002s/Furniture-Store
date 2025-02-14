@@ -24,6 +24,7 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--nav-font);
+    font-family: var(--logo-font);
 }
 
 .nav-item .nav-link {
@@ -472,10 +473,17 @@ body {
     color: #fefefe;
     padding: 40px 0;
 }
+
 .footer-container a {
     color: #fefefe;
     text-decoration: none;
     transition: 0.3s ease-in-out,
+}
+
+.footer-container h4{
+    font-family: var(--heading-font);
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .footer-container a:hover {
