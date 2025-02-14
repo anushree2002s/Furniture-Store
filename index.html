@@ -244,44 +244,168 @@
     <!-- mid section -->
     <section class="mid-section">
       <div class="overlay">
-          <h1 class="title">Discover Furniture That Complements Your Life</h1>
-          <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit et massa est. Aliquam in hendrerit urna.
-          </p>
-          <button class="btn btn-outline-light">Read more</button>
+        <h1 class="title">Discover Furniture That Complements Your Life</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit et massa est.
+          Aliquam in hendrerit urna.
+        </p>
+        <button class="btn btn-outline-light">Read more</button>
       </div>
-  </section>
+    </section>
 
-  <!--  new collection -->
-  <section class="collection-section">
-    <h2 class="collection-title">Check Out Our New Collection</h2>
-    <div class="container collection-container">
+    <!--  new collection -->
+    <section class="collection-section">
+      <h2 class="collection-title">Check Out Our New Collection</h2>
+      <div class="container collection-container">
         <div class="row g-3">
-            <!-- left side -->
-            <div class="col-md-6 ">
-                <div class="collection-item left">
-                    <img src="images/LR.jpg" alt="Living Room">
-                    <div class="collection-overlay">Living Room<br>Up To 50% Off</div>
-                </div>
+          <!-- left side -->
+          <div class="col-md-6">
+            <div class="collection-item left">
+              <img src="images/LR.jpg" alt="Living Room" />
+              <div class="collection-overlay">
+                Living Room<br />Up To 50% Off
+              </div>
             </div>
+          </div>
 
-            <!-- right side -->
-            <div class="col-md-6 d-flex flex-column gap-3 ">
-                <div class="collection-item right">
-                    <img src="images/bedroom.jpg" alt="Bed Room">
-                    <div class="collection-overlay">Bed Room<br>Up To 50% Off</div>
-                </div>
-                <div class="collection-item right">
-                    <img src="images/kitchen.jpg" alt="Kitchen">
-                    <div class="collection-overlay">Kitchen<br>Up To 50% Off</div>
-                </div>
+          <!-- right side -->
+          <div class="col-md-6 d-flex flex-column gap-3">
+            <div class="collection-item right">
+              <img src="images/bedroom.jpg" alt="Bed Room" />
+              <div class="collection-overlay">
+                Bed Room<br />
+                Up To 50% Off
+              </div>
             </div>
+            <div class="collection-item right">
+              <img src="images/kitchen.jpg" alt="Kitchen" />
+              <div class="collection-overlay">Kitchen<br />Up To 50% Off</div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- contact form -->
+    <div class="container mt-5">
+      <div class="form-container">
+        <h3 class="text-center">Contact Us</h3>
+        <p class="text-center text-muted">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Last Name" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Mobile No</label>
+              <input type="text" class="form-control" placeholder="Mobile No" />
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Choose A Topic</label>
+            <select class="form-select">
+              <option selected>Topic</option>
+              <option value="1">General Inquiry</option>
+              <option value="2">Support</option>
+              <option value="3">Feedback</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              rows="4"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="termsCheck" />
+            <label class="form-check-label" for="termsCheck">
+              I accept the terms.
+            </label>
+          </div>
+
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
     </div>
-</section>
 
-<!-- contact form -->
+    <!-- footer -->
+    <footer class="footer-container pt-5 mt-5">
+      <div class="container">
+          <div class="row justify-content-between">
+              <!--left -->
+              <div class="col-md-4 left-side">
+                  <h4 class="fw-bold">timber</h4>
+                  <p>Join our newsletter to stay up to date on features and releases.</p>
+                  <div class="d-flex">
+                      <input type="email" class="newsletter-input" placeholder="Enter your email">
+                      <button class="btn-subscribe">Subscribe</button>
+                  </div>
+              </div>
 
+              <!-- center -->
+              <div class="col-md-5 d-flex justify-content-between center-side gap-5">
+                  <div>
+                      <h6>About Us</h6>
+                      <a href="#">FAQs</a><br>
+                      <a href="#">Contact</a><br>
+                      <a href="#">Returns</a><br>
+                      <a href="#">Blog</a><br>
+                      <a href="#">Shipping</a>
+                  </div>
+                  <div>
+                      <h6>Customer Support</h6>
+                      <a href="#">Affiliates</a><br>
+                      <a href="#">Apple Pay Payments</a><br>
+                      <a href="#">Returns</a><br>
+                      <a href="#">Returns Policy</a><br>
+                      <a href="#">Shipping</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- bottom footer -->
+          <div class="footer-bottom d-flex justify-content-between align-items-center mt-3">
+              <p class="mb-1">© 2025 timber. All rights reserved</p>
+              <div>
+                  <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cookies Settings</a>
+              </div>
+              <div class="social-icons">
+                  <a href="#"><svg class="icon" width="18" height="18">
+                    <use xlink:href="#facebook"></use></svg></a>
+                  <a href="#"><svg class="icon" width="18" height="18">
+                    <use xlink:href="#instagram"></use></svg></a>
+                  <a href="#"><svg class="icon" width="18" height="18">
+                    <use xlink:href="#youtube"></use></svg></a>
+                  <a href="#"><svg class="icon" width="18" height="18">
+                    <use xlink:href="#pinterest"></use></svg></a>
+              </div>
+          </div>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="script.js"></script>
